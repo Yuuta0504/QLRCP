@@ -13,4 +13,8 @@ public interface THANHVIENDAO {
 
 	Phim getMovieDetails(String MaPhim);
 	
+<<<<<<< HEAD
+=======
+	
+>>>>>>> fd47b72577247ec1b4d06814062edbadbbaa4005
 }
