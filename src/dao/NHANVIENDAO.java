@@ -2,6 +2,10 @@ package dao;
 
 import java.util.List;
 
+import model.LICHCHIEU;
+import model.Phim;
+import model.Ve;
+
 public interface NHANVIENDAO {
 	List<Ve> getAllTickets();
 
@@ -9,7 +13,7 @@ public interface NHANVIENDAO {
 
 	List<ThanhVien> getAllCustomer();
 
-	List<LichChieu> getMovieSchedules();
+	List<LICHCHIEU> getMovieSchedules();
 
 	Phim getMovieDetails(String MaPhim);
 }
